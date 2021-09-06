@@ -1,0 +1,5 @@
+com\gala\rabbitmq\entity\DirectMessage.class
+com\gala\rabbitmq\receiver\TopicReceiver.class
+com\gala\rabbitmq\receiver\DirectReceiver.class
+com\gala\rabbitmq\receiver\FanoutReceiver.class
+com\gala\rabbitmq\RabbitConsumer01Main.class
