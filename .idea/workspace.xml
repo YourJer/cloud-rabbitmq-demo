@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -35,6 +38,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1xQmH1SXmhrJSLkkBYI3ILL8CKn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,7 +93,7 @@
       <workItem from="1630550261948" duration="18199000" />
       <workItem from="1630637081193" duration="9655000" />
       <workItem from="1630666690443" duration="448000" />
-      <workItem from="1630895200169" duration="1356000" />
+      <workItem from="1630895200169" duration="2692000" />
     </task>
     <servers />
   </component>
