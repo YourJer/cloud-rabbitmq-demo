@@ -9,9 +9,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-rabbitmq-consumer03" />
         <module name="cloud-rabbitmq-provider01" />
+        <module name="cloud-rabbitmq-gateway" />
         <module name="cloud-rabbitmq-consumer02" />
+        <module name="cloud-rabbit-eureka-server" />
         <module name="cloud-rabbitmq-consumer01" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-rabbit-eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-rabbit-eureka-server" options="-parameters" />
+    </option>
   </component>
 </project>
