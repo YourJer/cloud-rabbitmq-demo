@@ -1,5 +1,0 @@
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer01\src\main\java\com\gala\rabbitmq\RabbitConsumer01Main.java
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer01\src\main\java\com\gala\rabbitmq\receiver\FanoutReceiver.java
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer01\src\main\java\com\gala\rabbitmq\receiver\TopicReceiver.java
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer01\src\main\java\com\gala\rabbitmq\receiver\DirectReceiver.java
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer01\src\main\java\com\gala\rabbitmq\entity\DirectMessage.java

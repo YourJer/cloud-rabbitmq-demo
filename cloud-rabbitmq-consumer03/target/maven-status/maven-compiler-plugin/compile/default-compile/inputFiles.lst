@@ -1,6 +1,0 @@
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer03\src\main\java\com\gala\rabbitmq\RabbitConsumer03Main.java
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer03\src\main\java\com\gala\rabbitmq\receiver\MyAckReceiver.java
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer03\src\main\java\com\gala\rabbitmq\config\MessageListenerConfig.java
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer03\src\main\java\com\gala\rabbitmq\entity\MessageBody.java
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer03\src\main\java\com\gala\rabbitmq\entity\DirectMessage.java
-D:\IdeaProjects\cloud-rabbitmq-demo\cloud-rabbitmq-consumer03\src\main\java\com\gala\rabbitmq\receiver\FanoutReceiver.java

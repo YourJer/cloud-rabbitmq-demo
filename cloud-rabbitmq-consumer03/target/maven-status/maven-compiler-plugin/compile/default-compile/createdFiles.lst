@@ -1,6 +1,0 @@
-com\gala\rabbitmq\entity\DirectMessage.class
-com\gala\rabbitmq\RabbitConsumer03Main.class
-com\gala\rabbitmq\receiver\FanoutReceiver.class
-com\gala\rabbitmq\config\MessageListenerConfig.class
-com\gala\rabbitmq\receiver\MyAckReceiver.class
-com\gala\rabbitmq\entity\MessageBody.class
