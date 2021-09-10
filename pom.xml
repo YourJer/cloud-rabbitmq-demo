@@ -13,7 +13,9 @@
         <module>cloud-rabbitmq-consumer01</module>
         <module>cloud-rabbitmq-consumer02</module>
         <module>cloud-rabbitmq-consumer03</module>
-        <module>cloud-rabbitmq-gateway</module>
+        <module>cloud-nacos-provider01</module>
+        <module>cloud-nacos-provider02</module>
+        <module>cloud-nacos-consumer01</module>
     </modules>
 
     <properties>
@@ -31,7 +33,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.5.3</version>
+                <version>2.3.12.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
