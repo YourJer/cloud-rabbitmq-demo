@@ -16,6 +16,7 @@
         <module>cloud-nacos-provider01</module>
         <module>cloud-nacos-provider02</module>
         <module>cloud-nacos-consumer01</module>
+        <module>cloud-gateway</module>
     </modules>
 
     <properties>

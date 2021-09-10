@@ -1,0 +1,26 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: first-product
+          uri: lb://cloud-nacos-provider
+          predicates:
+            - Path=/nacos/hello/**
+        - id: second-product
+          uri: lb://cloud-nacos-consumer
+          predicates:
+            - Path=/nacos/consumer/**
+        - id: example-product
+          uri: http://news.baidu.com/mil
+          predicates:
+            - Path=/mil

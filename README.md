@@ -1,4 +1,27 @@
-# RabbitMQ消息确认机制
+# README
+
+## Gateway核心架构
+
+### 基本概念
+
+#### 路由（Route）是gateway中最基本的组件之一，表示一个具体的路由信息载体。
+
+> - id：路由标识、区别于其他route
+> - uri：路由指向的目的地uri，即客户端请求最终被转发到的微服务
+> - order：用于多个route之间的排序，数值越小排序越靠前，匹配优先级越高
+> - predicate：断言的作用是进行条件判断，只有断言都返回真，才会真正的执行路由
+> - filter：过滤器用于修改请求和响应信息
+
+### 执行流程
+
+> - gateway client向gateway server发送请求
+> - 请求首先会被HttpWebHandlerAdapter进行提取组装成网关上下文
+> - 然后网关的上下文会传递到DispatcherHandler，它负责将请求分发给RoutePredicateHandlerMapping
+> - RoutePredicateHandlerMapping负责路由查找，并根据路由断言判断路由是否可用
+> - 如果断言成功，由FilteringWebHandler创建过滤器并调用
+> - 请求会依次经过PreFilter--->微服务--->PostFilter的方法，最终返回响应
+
+## RabbitMQ消息确认机制
 
 ### 为什么要有消息确认？
 
